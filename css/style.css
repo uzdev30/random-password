@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(blue, purple);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.display {
+  width: 600px;
+  /* height: 70px; */
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+img {
+  margin-top: 15px;
+}
+
+input {
+  margin: 0 auto;
+  width: 500px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+  margin-top: 0px;
+  color: red;
+}
+
+button {
+  width: 300px;
+  font-size: 30px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  border-radius: 15px;
+  background-color: blueviolet;
+}
+
+button::before {
+  content: "";
+  background-image: url(/images/download.png);
+  position: relative;
+}
